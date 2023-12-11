@@ -66,6 +66,17 @@ header a:visited {
     font-weight: bold;
 }
 
+/* Navigation Menu */
+header>nav {
+    line-height: 2rem;
+    margin: 7%;
+    text-align: right;
+}
+
+header>nav>ul {
+    list-style-type: none;
+}
+
 /* Main */
 main {
     background-color: #F3F0EE;
