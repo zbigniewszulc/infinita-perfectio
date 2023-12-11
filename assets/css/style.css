@@ -38,7 +38,7 @@ header a:visited {
 }
 
 #logo-area>a>img {
-    height: 40px;
+    height: 48px;
 }
 
 #logo-area a {
@@ -57,6 +57,7 @@ header a:visited {
 #infinita-perfectio,
 #specialized-dentistry {
     font-family: 'Anek Latin', sans-serif;
+    font-size: 0.9rem;
 }
 
 #infinita-perfectio {
