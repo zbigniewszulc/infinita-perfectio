@@ -96,7 +96,8 @@ header>nav>ul {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    /* Burger icon */
+    font-size: 1.2rem;
 }
 
 #nav-toggle:checked~nav {
@@ -128,5 +129,38 @@ footer {
 }
 
 #footer li:nth-child(2) {
-    font-size: 1.7rem;
+    /* Facebook icon */
+    font-size: 1.5rem;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    header {
+        padding: 0.8rem 1.5rem;
+    }
+
+    /* Navigation Menu */
+    header>nav {
+        font-size: 1.6rem;
+    }
+
+    #logo-area>a>img {
+        height: 74px;
+    }
+
+    #specialized-dentistry {
+        font-size: 1.2rem;
+    }
+
+    #infinita-perfectio {
+        font-size: 1.54rem;
+    }
+
+    .nav-toggle-label {
+        /* Burger icon */
+        font-size: 1.4rem;
+    }
+
 }
