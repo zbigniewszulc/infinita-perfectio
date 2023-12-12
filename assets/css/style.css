@@ -50,14 +50,14 @@ header a:visited {
 #logo-area a {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 0.5rem;
 }
 
 #catchword {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 0.86rem;
+    font-size: 0.85rem;
 }
 
 #infinita-perfectio,
@@ -68,7 +68,7 @@ header a:visited {
 
 #infinita-perfectio {
     text-transform: uppercase;
-    font-size: 1.1rem;
+    font-size: 1.24rem;
     font-weight: bold;
 }
 
