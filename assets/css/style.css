@@ -74,7 +74,7 @@ header a:visited {
 
 /* Navigation Menu */
 header>nav {
-    line-height: 2.5rem;
+    line-height: 2.2rem;
     font-size: 1rem;
     text-align: right;
     position: absolute;
@@ -84,10 +84,19 @@ header>nav {
     left: 0;
     padding: 20px;
     display: none;
+    height: 100vh;
+    background-color: #F3F0EE;
 }
 
 header>nav>ul {
     list-style-type: none;
+}
+
+.dot {
+    font-size: 4px;
+    line-height: .1em;
+    vertical-align: 1em;
+    margin-left: 25px;
 }
 
 /* Navigation Toggle  */
@@ -97,7 +106,7 @@ header>nav>ul {
 
 .nav-toggle-label {
     /* Burger icon */
-    font-size: 1.2rem;
+    font-size: 16px;
 }
 
 #nav-toggle:checked~nav {
@@ -122,6 +131,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 15px;
 }
 
 #footer a {
@@ -130,7 +140,7 @@ footer {
 
 #footer li:nth-child(2) {
     /* Facebook icon */
-    font-size: 1.5rem;
+    font-size: 19px;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -144,6 +154,7 @@ footer {
     /* Navigation Menu */
     header>nav {
         font-size: 1.6rem;
+        line-height: 4rem;
     }
 
     #logo-area>a>img {
@@ -160,7 +171,15 @@ footer {
 
     .nav-toggle-label {
         /* Burger icon */
-        font-size: 1.4rem;
+        font-size: 19px;
     }
 
+    #footer {
+        font-size: 20px;
+    }
+
+    #footer li:nth-child(2) {
+        /* Facebook icon */
+        font-size: 26px;
+    }
 }
