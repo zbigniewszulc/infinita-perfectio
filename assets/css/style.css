@@ -109,3 +109,15 @@ main {
     margin-top: 63px;
     flex-grow: 1;
 }
+
+/* Footer */
+footer {
+    padding: 0.6rem;
+}
+
+#footer {
+    font-family: 'Anek Latin', sans-serif;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
