@@ -21,6 +21,13 @@ body {
 }
 
 /* Header */
+header {
+    padding: 0.4rem;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
 header,
 footer {
     background-color: white;
@@ -33,10 +40,6 @@ header a:visited {
 }
 
 /* Logo */
-#logo-area {
-    margin: 5px;
-}
-
 #logo-area>a>img {
     height: 48px;
 }
@@ -68,13 +71,22 @@ header a:visited {
 
 /* Navigation Menu */
 header>nav {
-    line-height: 2rem;
-    margin: 7%;
+    line-height: 2.2rem;
+    font-size: 0.9rem;
+    margin: 1.3rem;
     text-align: right;
 }
 
 header>nav>ul {
     list-style-type: none;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 1.7rem;
 }
 
 /* Main */
