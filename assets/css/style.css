@@ -96,7 +96,7 @@ header>nav>ul {
 }
 
 .nav-toggle-label {
-    font-size: 1.7rem;
+    font-size: 2rem;
 }
 
 #nav-toggle:checked~nav {

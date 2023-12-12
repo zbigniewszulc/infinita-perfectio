@@ -1,5 +1,8 @@
 {
     "editor.rulers": [
         120
-    ]
+    ],
+    "[html]": {
+        "editor.defaultFormatter": "hookyqr.beautify"
+    }
 }
