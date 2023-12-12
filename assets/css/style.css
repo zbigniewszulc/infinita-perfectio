@@ -112,7 +112,7 @@ main {
 
 /* Footer */
 footer {
-    padding: 0.6rem;
+    padding: 0.8rem;
 }
 
 #footer {
@@ -120,4 +120,8 @@ footer {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+}
+
+#footer a {
+    color: inherit;
 }
