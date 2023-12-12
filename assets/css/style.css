@@ -106,5 +106,6 @@ header>nav>ul {
 /* Main */
 main {
     background-color: #F3F0EE;
+    margin-top: 63px;
     flex-grow: 1;
 }
