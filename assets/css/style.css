@@ -124,7 +124,7 @@ footer {
     padding: 1rem;
 }
 
-#footer {
+#footer-wrapper {
     font-family: 'Anek Latin', sans-serif;
     list-style-type: none;
     display: flex;
@@ -133,16 +133,16 @@ footer {
     font-size: 15px;
 }
 
-#footer a {
+#footer-wrapper a {
     color: inherit;
 }
 
-#footer li:nth-child(2) {
+#footer-wrapper li:nth-child(2) {
     /* Facebook icon */
     font-size: 19px;
 }
 
-#footer li:nth-child(3) {
+#footer-wrapper li:nth-child(3) {
     /* Whatsapp icon */
     font-size: 24px;
 }
@@ -184,19 +184,38 @@ footer {
     }
 
     /* Footer */
-    #footer {
+    footer {
         margin-top: 4px;
         margin-bottom: 4px;
         font-size: 17px;
     }
 
-    #footer li:nth-child(2) {
+    #footer-wrapper>li:nth-child(2) {
         /* Facebook icon */
-        font-size: 22px;
+        font-size: 20px;
     }
 
-    #footer li:nth-child(3) {
+    #footer-wrapper>li:nth-child(3) {
         /* Whatsapp icon */
-        font-size: 27px;
+        font-size: 25px;
+    }
+}
+
+/* Media query: large screens (1200px and up) */
+@media screen and (min-width: 1200px) {
+
+    /* Footer  */
+    footer {
+        padding: 0.1rem;
+    }
+
+    #footer-wrapper>li:nth-child(2) {
+        /* Facebook icon */
+        font-size: 17px;
+    }
+
+    #footer-wrapper>li:nth-child(3) {
+        /* Whatsapp icon */
+        font-size: 22px;
     }
 }
