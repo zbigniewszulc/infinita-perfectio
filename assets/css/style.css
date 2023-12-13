@@ -113,7 +113,7 @@ header>nav>ul {
 /* Main */
 main {
     background-color: #F3F0EE;
-    margin-top: 63px;
+    margin-top: 60px;
     flex-grow: 1;
     padding: 0.3rem 0.6rem;
 }
@@ -162,7 +162,7 @@ footer {
     }
 
     #logo-area>a>img {
-        height: 72px;
+        height: 65px;
     }
 
     #specialized-dentistry {
@@ -180,7 +180,8 @@ footer {
 
     /* Main */
     main {
-        margin-top: 92px;
+        margin-top: 85px;
+        padding: 0.7rem 2.5rem;
     }
 
     /* Footer */
@@ -204,11 +205,23 @@ footer {
 /* Media query: large screens (1200px and up) */
 @media screen and (min-width: 1200px) {
 
+    /* Header */
+    header {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    #logo-area>a>img {
+        height: 65px;
+    }
+
     /* Navigation Menu */
     header nav {
         display: block;
         position: relative;
         width: fit-content;
+        padding: 10px 20px;
+        font-size: 1.25rem;
     }
 
     #nav-wrapper {
@@ -223,6 +236,11 @@ footer {
 
     .nav-toggle-label {
         display: none;
+    }
+
+    main {
+        margin-top: 84px;
+        padding: 1.4rem 11rem;
     }
 
     /* Footer  */
