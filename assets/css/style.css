@@ -31,8 +31,7 @@ header {
     align-items: center;
 }
 
-header,
-footer {
+header {
     background-color: white;
 }
 
@@ -122,6 +121,7 @@ main {
 /* Footer */
 footer {
     padding: 1rem;
+    background-color: white;
 }
 
 #footer-wrapper {
@@ -203,6 +203,27 @@ footer {
 
 /* Media query: large screens (1200px and up) */
 @media screen and (min-width: 1200px) {
+
+    /* Navigation Menu */
+    header nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+    }
+
+    #nav-wrapper {
+        display: flex;
+        gap: 2rem;
+
+    }
+
+    #nav-wrapper i {
+        display: none;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 
     /* Footer  */
     footer {
