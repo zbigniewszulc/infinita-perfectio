@@ -116,6 +116,7 @@ main {
     background-color: #F3F0EE;
     margin-top: 63px;
     flex-grow: 1;
+    padding: 0.3rem 0.6rem;
 }
 
 /* Footer */
@@ -177,19 +178,25 @@ footer {
         font-size: 19px;
     }
 
+    /* Main */
+    main {
+        margin-top: 92px;
+    }
+
+    /* Footer */
     #footer {
         margin-top: 4px;
         margin-bottom: 4px;
-        font-size: 20px;
+        font-size: 17px;
     }
 
     #footer li:nth-child(2) {
         /* Facebook icon */
-        font-size: 25px;
+        font-size: 22px;
     }
 
     #footer li:nth-child(3) {
         /* Whatsapp icon */
-        font-size: 30px;
+        font-size: 27px;
     }
 }
