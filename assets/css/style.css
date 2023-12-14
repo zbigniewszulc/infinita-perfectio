@@ -119,9 +119,9 @@ main {
 }
 
 #privacy-policy-header {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 /* Footer */
@@ -187,7 +187,20 @@ footer {
     /* Main */
     main {
         margin-top: 85px;
-        padding: 1.8rem 2.5rem;
+        padding: 1rem 2.5rem;
+    }
+
+    article {
+        border: 0px solid rgba(100, 100, 100, 1);
+        border-radius: 6px;
+        background-color: rgba(255, 255, 255, 1);
+        box-shadow: -3px 3px 22px 0px rgba(0, 0, 0, 0.3);
+        padding: 2.3rem 3rem;
+    }
+
+    #privacy-policy-header {
+        font-size: 1.3rem;
+        margin-bottom: 10px;
     }
 
     /* Footer */
@@ -250,11 +263,12 @@ footer {
     }
 
     article {
-        border: 0px solid rgba(100, 100, 100, 1);
-        border-radius: 6px;
-        background-color: rgba(255, 255, 255, 1);
-        box-shadow: -3px 3px 22px 0px rgba(0, 0, 0, 0.3);
         padding: 4.3rem 6rem;
+    }
+
+    #privacy-policy-header {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
     }
 
     /* Footer  */
