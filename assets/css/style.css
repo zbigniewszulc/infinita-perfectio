@@ -17,21 +17,18 @@ body {
     flex-direction: column;
     /* Generic project styles */
     font-family: 'Poppins', sans-serif;
-    color: #4E494B;
+    color: #141111;
 }
 
 /* Header */
 header {
-    padding: 0.35rem 1rem;
+    padding: 20px 15px;
     position: fixed;
     width: 100%;
     z-index: 99;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-header {
     background-color: white;
 }
 
@@ -112,24 +109,34 @@ header>nav>ul {
 
 /* Main */
 main {
-    background-color: #F3F0EE;
-    margin-top: 60px;
+    margin-top: 88px;
     flex-grow: 1;
-    padding: 1.1rem 0.7rem;
+    padding: .5rem 0.9rem;
 }
 
-
-
 #privacy-policy-header {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-align: center;
-    margin-bottom: 5px;
+    background: url("../images/pexels-christina-morillo-1181316.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Article section */
+article ul {
+    padding-left: 25px;
 }
 
 /* Footer */
 footer {
-    padding: 1rem;
-    background-color: white;
+    padding: 25px 2px;
+    box-shadow: 0px -8px 53px -31px rgba(78, 73, 75, 1);
 }
 
 #footer-wrapper {
@@ -138,7 +145,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 #footer-wrapper a {
@@ -160,7 +167,7 @@ footer {
 
     /* Header */
     header {
-        padding: 0.6rem 2.1rem;
+        padding: 30px 40px;
     }
 
     /* Navigation Menu */
@@ -174,11 +181,11 @@ footer {
     }
 
     #specialized-dentistry {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
     #infinita-perfectio {
-        font-size: 1.54rem;
+        font-size: 1.74rem;
     }
 
     .nav-toggle-label {
@@ -188,38 +195,27 @@ footer {
 
     /* Main */
     main {
-        margin-top: 85px;
-        padding: 1rem 2.5rem;
-    }
-
-    article {
-        border: 0px solid rgba(100, 100, 100, 1);
-        border-radius: 6px;
-        background-color: rgba(255, 255, 255, 1);
-        box-shadow: -3px 3px 22px 0px rgba(0, 0, 0, 0.3);
-        padding: 2.3rem 3rem;
+        margin-top: 115px;
+        padding: 1.7rem 2.5rem;
     }
 
     #privacy-policy-header {
         font-size: 1.3rem;
-        margin-bottom: 10px;
     }
 
     /* Footer */
-    footer {
-        margin-top: 4px;
-        margin-bottom: 4px;
-        font-size: 17px;
+    #footer-wrapper {
+        font-size: 1.5rem;
     }
 
     #footer-wrapper>li:nth-child(2) {
         /* Facebook icon */
-        font-size: 20px;
+        font-size: 1.7rem;
     }
 
     #footer-wrapper>li:nth-child(3) {
         /* Whatsapp icon */
-        font-size: 25px;
+        font-size: 2rem;
     }
 }
 
@@ -228,8 +224,7 @@ footer {
 
     /* Header */
     header {
-        padding-top: 0;
-        padding-bottom: 0;
+        padding: 40px 80px 50px 80px;
     }
 
     #logo-area>a>img {
@@ -260,31 +255,38 @@ footer {
     }
 
     main {
-        margin-top: 84px;
-        padding: 1rem 14rem;
+        margin-top: 134px;
+        padding: 1rem 14rem 6rem 14rem;
     }
 
+
     article {
-        padding: 4.3rem 6rem;
+        column-count: 2;
+        column-gap: 80px;
     }
 
     #privacy-policy-header {
         font-size: 1.5rem;
-        margin-bottom: 20px;
+        height: 50vh;
     }
 
     /* Footer  */
     footer {
-        padding: 0.1rem;
+        padding: 19px;
+        box-shadow: 0px -52x 53px -31px rgba(78, 73, 75, 1);
+    }
+
+    #footer-wrapper {
+        font-size: 1.3rem;
     }
 
     #footer-wrapper>li:nth-child(2) {
         /* Facebook icon */
-        font-size: 17px;
+        font-size: 23px;
     }
 
     #footer-wrapper>li:nth-child(3) {
         /* Whatsapp icon */
-        font-size: 22px;
+        font-size: 27px;
     }
 }
