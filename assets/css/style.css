@@ -115,7 +115,13 @@ main {
     background-color: #F3F0EE;
     margin-top: 60px;
     flex-grow: 1;
-    padding: 0.3rem 0.6rem;
+    padding: 1.1rem 0.7rem;
+}
+
+#privacy-policy-header {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 /* Footer */
@@ -181,7 +187,7 @@ footer {
     /* Main */
     main {
         margin-top: 85px;
-        padding: 0.7rem 2.5rem;
+        padding: 1.8rem 2.5rem;
     }
 
     /* Footer */
@@ -240,7 +246,15 @@ footer {
 
     main {
         margin-top: 84px;
-        padding: 1.4rem 11rem;
+        padding: 1rem 14rem;
+    }
+
+    article {
+        border: 0px solid rgba(100, 100, 100, 1);
+        border-radius: 6px;
+        background-color: rgba(255, 255, 255, 1);
+        box-shadow: -3px 3px 22px 0px rgba(0, 0, 0, 0.3);
+        padding: 4.3rem 6rem;
     }
 
     /* Footer  */
