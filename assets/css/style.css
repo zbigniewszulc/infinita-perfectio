@@ -33,7 +33,8 @@ header {
 }
 
 header a,
-header a:visited {
+header a:visited,
+header a:hover {
     text-decoration: none;
     color: inherit;
 }
@@ -105,6 +106,7 @@ header>nav>ul {
 
 #nav-toggle:checked~nav {
     display: block;
+    min-height: 100vh;
 }
 
 /* Main */
@@ -255,10 +257,13 @@ footer {
         font-size: 1.25rem;
     }
 
+    header>nav>ul>li>a:hover {
+        text-decoration: underline;
+    }
+
     #nav-wrapper {
         display: flex;
         gap: 2rem;
-
     }
 
     #nav-wrapper i {
@@ -267,6 +272,10 @@ footer {
 
     .nav-toggle-label {
         display: none;
+    }
+
+    .active {
+        font-weight: 700;
     }
 
     main {
