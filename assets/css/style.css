@@ -300,6 +300,19 @@ footer {
         height: 50vh;
     }
 
+    /* #pricelist_section {
+        display: flex;
+    }
+
+    #pricelist_photo img {
+        max-width: 30%;
+        z-index: 1;
+    } */
+
+    #pricelist {
+        z-index: 98;
+    }
+
     /* Footer  */
     footer {
         padding: 15px;
