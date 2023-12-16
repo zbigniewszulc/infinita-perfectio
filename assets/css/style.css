@@ -1,5 +1,5 @@
 /* Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 
 /* Asterisk wildcard selector to override default broswer's style */
@@ -16,8 +16,8 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    font-family: 'Poppins', sans-serif;
-    color: #1e1c1c;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #000000;
 }
 
 /* Header */
@@ -29,7 +29,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(232, 232, 232);
+    background-color: #FFFFFF;
 }
 
 header a,
@@ -71,7 +71,6 @@ header a:hover {
 
 /* Navigation Menu */
 header>nav {
-    background-color: rgb(232, 232, 232);
     line-height: 2.2rem;
     font-size: 1rem;
     text-align: right;
@@ -81,6 +80,7 @@ header>nav {
     left: 0;
     padding: 20px;
     display: none;
+    background-color: #FFFFFF;
 }
 
 header>nav>ul {
@@ -114,7 +114,6 @@ main {
     margin-top: 88px;
     flex-grow: 1;
     padding: 5px;
-    background-color: rgb(232, 232, 232);
 }
 
 #privacy-policy-header {
@@ -128,14 +127,11 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #FFFFFF;
 }
 
 /* Section */
 section {
-    border: 1px solid rgb(250, 250, 250);
-    box-shadow: 1px -1px 6px 1px rgb(255, 255, 255);
-    border-radius: 10px;
     padding: 10px;
 }
 
@@ -147,8 +143,6 @@ article ul {
 /* Footer */
 footer {
     padding: 25px 2px;
-    background-color: rgb(232, 232, 232);
-    /* box-shadow: 0px -8px 53px -31px rgba(78, 73, 75, 1); */
 }
 
 #footer-wrapper {
@@ -213,7 +207,6 @@ footer {
 
     /* Section */
     section {
-        border-radius: 10px;
         padding: 30px;
     }
 
@@ -285,7 +278,6 @@ footer {
 
     /* Section */
     section {
-        border-radius: 20px;
         padding: 50px;
     }
 
@@ -300,15 +292,6 @@ footer {
         height: 50vh;
     }
 
-    /* #pricelist_section {
-        display: flex;
-    }
-
-    #pricelist_photo img {
-        max-width: 30%;
-        z-index: 1;
-    } */
-
     #pricelist {
         z-index: 98;
     }
@@ -316,7 +299,6 @@ footer {
     /* Footer  */
     footer {
         padding: 15px;
-        /* box-shadow: 0px -8px 53px -22px rgba(78, 73, 75, 1); */
     }
 
     #footer-wrapper {
