@@ -33,8 +33,7 @@ header {
 }
 
 header a,
-header a:visited,
-header a:hover {
+header a:visited {
     text-decoration: none;
     color: inherit;
 }
@@ -120,6 +119,7 @@ main {
     font-size: 1.1rem;
     text-align: center;
     background: url("../images/pexels-christina-morillo-1181316.jpg");
+    filter: grayscale(90%) drop-shadow(0 0 0.55rem #000000);
     background-repeat: no-repeat;
     background-size: cover;
     height: 30vh;
@@ -140,32 +140,76 @@ article ul {
     padding-left: 25px;
 }
 
-/* Footer */
-footer {
-    padding: 25px 2px;
+/* Gallery */
+#gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
+#gallery img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 2px 2px 7px 1px #9e9e9e;
+}
+
+/* Reorder image sequence */
+#gallery :nth-child(1) {
+    order: 1;
+}
+
+#gallery :nth-child(2) {
+    order: 2;
+}
+
+#gallery :nth-child(3) {
+    order: 4;
+}
+
+#gallery :nth-child(4) {
+    order: 5;
+}
+
+#gallery :nth-child(5) {
+    order: 6;
+}
+
+#gallery :nth-child(6) {
+    order: 3;
+}
+
+/* Google maps */
+#google-maps {
+    filter: grayscale(100%);
+}
+
+/* Footer */
 #footer-wrapper {
     font-family: 'Anek Latin', sans-serif;
+    padding-top: 45px;
+    padding-bottom: 55px;
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    gap: 30px;
     align-items: center;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 #footer-wrapper a {
     color: inherit;
+    text-decoration: none;
 }
 
 #footer-wrapper li:nth-child(2) {
     /* Facebook icon */
-    font-size: 19px;
+    font-size: 18px;
 }
 
 #footer-wrapper li:nth-child(3) {
     /* Whatsapp icon */
-    font-size: 24px;
+    font-size: 21px;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -210,23 +254,61 @@ footer {
         padding: 30px;
     }
 
+    /* Gallery */
+    #gallery {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 35px;
+    }
+
+    #gallery img {
+        width: 40vw;
+    }
+
+    /* Reorder image sequence */
+    #gallery :nth-child(1) {
+        order: 1;
+    }
+
+    #gallery :nth-child(2) {
+        order: 2;
+    }
+
+    #gallery :nth-child(3) {
+        order: 5;
+    }
+
+    #gallery :nth-child(4) {
+        order: 6;
+    }
+
+    #gallery :nth-child(5) {
+        order: 4;
+    }
+
+    #gallery :nth-child(6) {
+        order: 3;
+    }
+
     #privacy-policy-header {
         font-size: 1.3rem;
     }
 
     /* Footer */
     #footer-wrapper {
-        font-size: 1.5rem;
+        font-size: 19px;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
 
     #footer-wrapper>li:nth-child(2) {
         /* Facebook icon */
-        font-size: 1.7rem;
+        font-size: 21px;
     }
 
     #footer-wrapper>li:nth-child(3) {
         /* Whatsapp icon */
-        font-size: 2rem;
+        font-size: 24px;
     }
 }
 
@@ -287,6 +369,46 @@ footer {
         column-gap: 80px;
     }
 
+    /* Gallery */
+    #gallery {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 80px;
+    }
+
+    #gallery img {
+        width: 25vw;
+    }
+
+    /* Reorder image sequence */
+    #gallery :nth-child(1) {
+        order: 1;
+    }
+
+    #gallery :nth-child(2) {
+        order: 2;
+    }
+
+    #gallery :nth-child(3) {
+        order: 3;
+    }
+
+    #gallery :nth-child(4) {
+        order: 4;
+    }
+
+    #gallery :nth-child(5) {
+        order: 6;
+    }
+
+    #gallery :nth-child(6) {
+        order: 5;
+    }
+
+    #privacy-policy-header {
+        font-size: 1.3rem;
+    }
+
     #privacy-policy-header {
         font-size: 1.5rem;
         height: 50vh;
@@ -297,21 +419,12 @@ footer {
     }
 
     /* Footer  */
-    footer {
-        padding: 15px;
-    }
-
     #footer-wrapper {
-        font-size: 1rem;
+        font-size: 20px;
     }
 
-    #footer-wrapper>li:nth-child(2) {
-        /* Facebook icon */
-        font-size: 23px;
+    #footer-wrapper a:hover {
+        text-decoration: underline;
     }
 
-    #footer-wrapper>li:nth-child(3) {
-        /* Whatsapp icon */
-        font-size: 27px;
-    }
 }
