@@ -191,6 +191,7 @@ article ul {
     width: 100%;
     object-fit: cover;
     object-position: top;
+    box-shadow: 1px 1px 6px 1px #9e9e9e;
 }
 
 #pricelist {
@@ -339,7 +340,7 @@ article ul {
     }
 
     #pricelist-image img {
-        width: 120px;
+        width: 20vw;
     }
 
     #pricelist details {
@@ -469,7 +470,7 @@ article ul {
     /* Pricelist */
 
     #pricelist-image img {
-        width: 680px;
+        width: 30vw;
     }
 
     #pricelist table {
