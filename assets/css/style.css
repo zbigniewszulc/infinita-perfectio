@@ -179,6 +179,44 @@ article ul {
     order: 3;
 }
 
+/* Pricelist */
+#pricelist-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#pricelist-image img {
+    filter: grayscale(100%);
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+#pricelist {
+    margin-top: 10px;
+    flex-grow: 1;
+}
+
+#pricelist details {
+    margin-top: 30px;
+}
+
+#pricelist table {
+    border-collapse: collapse;
+    min-width: 100%;
+    line-height: 2.3em;
+    margin-top: 10px;
+}
+
+#pricelist table td:nth-child(2) {
+    padding-left: 5px;
+    text-align: right;
+}
+
+#pricelist table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
 /* Google maps */
 #google-maps {
     filter: grayscale(100%);
@@ -292,6 +330,19 @@ article ul {
 
     #privacy-policy-header {
         font-size: 1.3rem;
+    }
+
+    /* Pricelist */
+    #pricelist-wrapper {
+        flex-direction: row;
+    }
+
+    #pricelist-image img {
+        width: 120px;
+    }
+
+    #pricelist details {
+        margin-top: 50px;
     }
 
     /* Footer */
@@ -414,8 +465,18 @@ article ul {
         height: 50vh;
     }
 
-    #pricelist {
-        z-index: 98;
+    /* Pricelist */
+
+    #pricelist-image img {
+        width: 680px;
+    }
+
+    #pricelist table {
+        line-height: 2.9em;
+    }
+
+    #pricelist summary:hover {
+        cursor: pointer;
     }
 
     /* Footer  */
