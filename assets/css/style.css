@@ -512,6 +512,7 @@ article ul {
 
     #pricelist summary:hover {
         cursor: pointer;
+        text-decoration: underline;
     }
 
     /* Footer  */
