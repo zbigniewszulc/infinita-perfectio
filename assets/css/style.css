@@ -182,8 +182,8 @@ main {
 }
 
 #main-landing-content {
-padding-left: 10px;
-padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #our-mission {
@@ -228,6 +228,7 @@ padding-right: 10px;
     flex-direction: column;
     align-items: center;
 }
+
 #how-it-works-section {
     margin-top: 35px;
     color: white;
@@ -260,7 +261,7 @@ padding-right: 10px;
 
 /* Abous us  */
 figure {
-    background: url("../images/imageedit_0_7419525688.webp") no-repeat center center / cover;
+    background: url("../images/infinita-perfectio-clinic.webp") no-repeat center -400px / cover;
     height: 450px;
     color: white;
     position: relative;
@@ -607,6 +608,19 @@ article ul {
         position: absolute;
         top: 2px;
         left: 2px;
+    }
+
+    #vienna-wrapper {
+        display: flex;
+        max-width: 100%;
+    }
+
+    #img-vienna-1 {
+        width: 100%
+    }
+
+    #img-vienna-2 {
+        width: 100%;
     }
 
     /* Treatments */
