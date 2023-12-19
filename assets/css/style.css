@@ -261,8 +261,9 @@ main {
 
 /* Abous us  */
 figure {
-    background: url("../images/infinita-perfectio-clinic.webp") no-repeat center -400px / cover;
-    height: 450px;
+    background: url("../images/infinita-perfectio-clinic.webp") no-repeat right top / cover;
+    width: 100%;
+    height: 455px;
     color: white;
     position: relative;
 }
@@ -287,6 +288,18 @@ figure img {
     border-radius: 50%;
     height: auto;
     max-width: 100%;
+}
+
+#img-vienna-1 {
+    object-fit: cover;
+    width: 100%;
+    box-shadow: 2px 2px 7px 1px #9e9e9e;
+}
+
+#img-vienna-2 {
+    object-fit: cover;
+    width: 100%;
+    box-shadow: 2px 2px 7px 1px #9e9e9e;
 }
 
 /* Privacy Policy */
@@ -604,23 +617,13 @@ article ul {
     }
 
     /* About us */
+    figure {
+        background-position: center center;
+    }
+
     #figcaption-wrapper {
-        position: absolute;
-        top: 2px;
-        left: 2px;
-    }
-
-    #vienna-wrapper {
-        display: flex;
-        max-width: 100%;
-    }
-
-    #img-vienna-1 {
-        width: 100%
-    }
-
-    #img-vienna-2 {
-        width: 100%;
+        top: 15px;
+        left: 15px;
     }
 
     /* Treatments */
@@ -767,6 +770,17 @@ article ul {
     /* About us */
     #about-us-content {
         column-count: 2;
+    }
+
+    #vienna-wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+
+    #img-vienna-1,
+    #img-vienna-2 {
+        width: 50%;
     }
 
     /* Treatments */
