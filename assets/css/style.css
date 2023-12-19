@@ -121,6 +121,18 @@ main {
     margin-top: 25px;
 }
 
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.text-color-blue {
+    color: rgb(50, 123, 148);
+}
+
+.no-decoration {
+    text-decoration: none;
+}
+
 /* Abous us  */
 figure {
     background: url("../images/imageedit_0_7419525688.webp") no-repeat center center / cover;
@@ -156,7 +168,6 @@ figure img {
     font-size: 1.1rem;
     text-align: center;
     background: url("../images/pexels-christina-morillo-1181316.jpg");
-    filter: grayscale(90%) drop-shadow(0 0 0.55rem #000000);
     background-repeat: no-repeat;
     background-size: cover;
     height: 30vh;
@@ -183,7 +194,6 @@ article ul {
     height: 300px;
     background-position: center;
     background-size: cover;
-    /* filter: grayscale(95%); */
     position: relative;
     box-shadow: 2px 2px 7px 1px #9e9e9e;
 }
@@ -271,7 +281,6 @@ article ul {
 }
 
 #pricelist-image img {
-    /* filter: grayscale(100%); */
     width: 100%;
     object-fit: cover;
     object-position: top;
@@ -303,9 +312,99 @@ article ul {
     background-color: #f2f2f2;
 }
 
-/* Google maps */
-#google-maps {
-    filter: grayscale(100%);
+/* Contact Us */
+/* Contact Form */
+#contact-us-form-section {
+    max-width: 636px;
+}
+
+#contact-us-form {
+    margin-top: 20px;
+    box-shadow: 2px 2px 7px 1px #878787;
+    display: block;
+    padding: 15px;
+    background-color: #bbbbbbed;
+    color: rgb(39, 39, 39);
+}
+
+.input-field {
+    font-size: 1.2em;
+    line-height: 2em;
+    width: 100%;
+    padding: 0 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-field:focus {
+    outline: none;
+    border: 3px solid rgb(100, 100, 100);
+}
+
+#comments:focus {
+    outline: none;
+    border: 3px solid rgb(100, 100, 100);
+}
+
+#contact-us-form label {
+    display: inline-block;
+}
+
+#country {
+    width: 100%;
+    height: 42px;
+    border-radius: 5px;
+    border: none;
+}
+
+#contact-us-form textarea {
+    width: 100%;
+    font-size: 1.2em;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+#consent-wrapper {
+    display: flex;
+    line-height: 1rem;
+    justify-content: flex-start;
+    padding: 5px 0;
+}
+
+#consent {
+    width: 45px;
+    height: 45px;
+}
+
+#consent-label {
+    padding-left: 7px;
+    font-size: 75%;
+}
+
+#contact-us-form input[type=submit] {
+    border: none;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    background-color: rgb(73, 135, 155);
+    box-shadow: 2px 2px 7px 1px #9e9e9e;
+    font-size: 1em;
+    margin: 15px 0;
+    color: white;
+    letter-spacing: .2em;
+}
+
+/* Google Maps */
+#google-maps-wrapper {
+    max-width: 100%;
+    max-height: auto;
+    filter: grayscale(25%);
+}
+
+#google-maps-wrapper iframe {
+    width: 100%;
+    height: auto;
 }
 
 /* Footer */
@@ -449,6 +548,7 @@ article ul {
         margin-top: 50px;
     }
 
+    
     /* Footer */
     #footer-wrapper {
         font-size: 19px;
@@ -563,13 +663,44 @@ article ul {
         text-decoration: underline;
     }
 
-    /* Footer  */
-    #footer-wrapper {
-        font-size: 20px;
+    /* Contact Us */
+    /* Contact Form */
+    #contact-us-wrapper {
+        display: flex;
+        justify-content: center;
     }
 
-    #footer-wrapper a:hover {
-        text-decoration: underline;
+    #email-call-map-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 100px;
+        margin-top: -25px;
+        margin-bottom: -200;
     }
 
+    #consent {
+        width: 25px;
+        height: 25px;
+    }
+
+    #contact-us-form input[type=submit]:hover {
+        box-shadow: rgba(0, 0, 0, 0.45) 2px 5px 8px;
+        transform: scale(1);
+        background-color: rgb(50, 123, 148);
+    }
+
+    #contact-us-form input[type=submit]:active {
+        transform: scale(0.95);
+    }
+
+}
+
+/* Footer  */
+#footer-wrapper {
+    font-size: 20px;
+}
+
+#footer-wrapper a:hover {
+    text-decoration: underline;
 }
