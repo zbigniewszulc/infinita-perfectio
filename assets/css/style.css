@@ -133,6 +133,131 @@ main {
     text-decoration: none;
 }
 
+.hidden-heading {
+    display: none;
+}
+
+/* Landing page */
+/* Hero */
+#hero {
+    background-image: url("../images/imageedit_0_7419525688.webp");
+    background-repeat: no-repeat;
+    background-position: -1235px -272px;
+    background-size: cover;
+    position: relative;
+    height: 750px;
+    width: 100%;
+}
+
+#cover-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    width: 100%;
+    height: 45vh;
+    max-width: 100%;
+    background-color: rgba(255, 255, 255, 0.171);
+    color: white;
+    font-size: 1.1em;
+}
+
+#what-to-expect {
+    position: absolute;
+    top: 270px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: rgba(50, 123, 148, 0.911);
+    color: white;
+    text-align: center;
+    list-style-position: inside;
+    width: 100%;
+}
+
+#what-to-expect li {
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 1.1em;
+    ;
+    list-style-type: none;
+}
+
+#main-landing-content {
+padding-left: 10px;
+padding-right: 10px;
+}
+
+#our-mission {
+    margin-top: 35px;
+}
+
+#why-poland-section {
+    margin-top: 35px;
+    padding: 35px 10px;
+    color: white;
+    background-color: rgba(50, 123, 148, 0.909);
+}
+
+#why-poland-section h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+#why-poland-section>h2 {
+    padding-top: 10px;
+}
+
+#why-poland-section>h2>i {
+    margin-right: 15px;
+}
+
+#what-makes-us-stand-out-section {
+    margin-top: 35px;
+    list-style-position: inside;
+}
+
+#what-makes-us-stand-out-section h1 {
+    text-align: center;
+}
+
+#how-it-works-section {
+    margin-top: 35px;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#how-it-works-section {
+    margin-top: 35px;
+    color: white;
+    background-color: rgba(50, 123, 148, 0.909);
+}
+
+#how-it-works-section ol {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#how-it-works-section h1 {
+    text-align: center;
+    padding-top: 30px
+}
+
+#how-it-works-section h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+#how-it-works-section li {
+    list-style-type: none;
+}
+
 /* Abous us  */
 figure {
     background: url("../images/imageedit_0_7419525688.webp") no-repeat center center / cover;
