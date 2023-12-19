@@ -167,10 +167,10 @@ figure img {
 #privacy-policy-header {
     font-size: 1.1rem;
     text-align: center;
-    background: url("../images/pexels-christina-morillo-1181316.jpg");
+    background: url("../images/pexels-christina-morillo-1181316.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 30vh;
+    height: 35vh;
     margin-bottom: 25px;
     display: flex;
     justify-content: center;
@@ -533,6 +533,7 @@ article ul {
     /* Privacy policy */
     #privacy-policy-header {
         font-size: 1.3rem;
+        background-position: 10%;
     }
 
     /* Pricelist */
@@ -548,7 +549,7 @@ article ul {
         margin-top: 50px;
     }
 
-    
+
     /* Footer */
     #footer-wrapper {
         font-size: 19px;
@@ -642,11 +643,12 @@ article ul {
     /* Privacy policy  */
     #privacy-policy-header {
         font-size: 1.3rem;
+        background-position: left 13%;
     }
 
     #privacy-policy-header {
         font-size: 1.5rem;
-        height: 50vh;
+        height: 40vh;
     }
 
     /* Pricelist */
