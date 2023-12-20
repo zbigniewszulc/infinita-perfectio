@@ -249,7 +249,7 @@ main {
 }
 
 /* Abous us  */
-figure {
+#thumbnail {
     background: url("../images/infinita-perfectio-clinic.webp") no-repeat right top / cover;
     width: 100%;
     height: 455px;
@@ -257,23 +257,23 @@ figure {
     position: relative;
 }
 
-#figcaption-wrapper {
+#thumbnail-wrapper {
     position: absolute;
-    top: 7vh;
-    left: 4vw;
+    top: 90px;
+    left: 10px;
 }
 
-figcaption {
-    background-color: white;
+#pawel-name {
+    background-color: rgba(44, 44, 44, 0.405);
     opacity: .8;
-    color: #000000;
+    color: white;
     width: 65%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 
-figure img {
+#thumbnail img {
     border-radius: 50%;
     height: auto;
     max-width: 100%;
@@ -634,11 +634,11 @@ article ul {
     }
 
     /* About us */
-    figure {
+    #thumbnail {
         background-position: center center;
     }
 
-    #figcaption-wrapper {
+    #thumbnail-wrapper {
         top: 15px;
         left: 15px;
     }
