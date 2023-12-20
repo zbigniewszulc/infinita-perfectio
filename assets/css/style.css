@@ -527,7 +527,7 @@ article ul {
 /* Google Maps */
 #google-maps-wrapper {
     max-width: 100%;
-    max-height: auto;
+    max-height: 100%;
     filter: grayscale(25%);
 }
 
@@ -882,7 +882,6 @@ article ul {
         justify-content: space-between;
         padding-left: 100px;
         margin-top: -25px;
-        margin-bottom: -200;
     }
 
     #consent {
