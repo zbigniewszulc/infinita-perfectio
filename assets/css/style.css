@@ -1,7 +1,6 @@
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-
 /* Asterisk wildcard selector to override default broswer's style */
 * {
     padding: 0;
@@ -126,10 +125,6 @@ main {
     margin-left: 10px;
 }
 
-.text-color-blue {
-    color: rgb(50, 123, 148);
-}
-
 .no-decoration {
     text-decoration: none;
 }
@@ -245,6 +240,10 @@ main {
 
 #how-it-works-section hr {
     display: none;
+}
+
+.contact-us {
+    color:white;
 }
 
 /* Abous us  */
@@ -807,6 +806,10 @@ article ul {
     #how-it-works-section hr {
         display: block;
     }
+
+        .contact-us {
+            color: inherit;
+        }
 
     #what-makes-us-stand-out-section i {
         margin-right: 10px;
