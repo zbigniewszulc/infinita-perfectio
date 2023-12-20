@@ -216,11 +216,13 @@ main {
     margin-top: -10px;
 }
 
-.step {
+#steps {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
+    gap: 20px;
+    padding-bottom: 20px;
 }
 
 #how-it-works-section {
@@ -243,7 +245,7 @@ main {
 }
 
 .contact-us {
-    color:white;
+    color: white;
 }
 
 /* Abous us  */
@@ -807,9 +809,9 @@ article ul {
         display: block;
     }
 
-        .contact-us {
-            color: inherit;
-        }
+    .contact-us {
+        color: inherit;
+    }
 
     #what-makes-us-stand-out-section i {
         margin-right: 10px;
