@@ -466,6 +466,10 @@ article ul {
     color: rgb(39, 39, 39);
 }
 
+#contact-us-form em {
+    font-size: 0.8em;
+}
+
 .input-field {
     font-size: 1.2em;
     line-height: 2em;
