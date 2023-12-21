@@ -219,6 +219,12 @@ main {
     padding-right: 5px;
 }
 
+#our-mission h2 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
 #cost-saving {
     margin-top: -10px;
 }
@@ -804,10 +810,6 @@ article ul {
     #main-landing-wrapper {
         display: flex;
         flex-wrap: wrap;
-    }
-
-    #our-mission p {
-        padding-top: 70px;
     }
 
     #how-it-works-section {
