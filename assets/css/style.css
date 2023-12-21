@@ -74,9 +74,9 @@ header>nav {
     font-size: 1rem;
     text-align: right;
     position: absolute;
-    width: 100%;
+    width: 75%;
     top: 100%;
-    left: 0;
+    right: 0;
     padding: 20px;
     display: none;
     background-color: #FFFFFF;
@@ -84,6 +84,11 @@ header>nav {
 
 header>nav>ul {
     list-style-type: none;
+
+}
+
+#nav-wrapper i {
+    padding-left: 15px;
 }
 
 .dot {
@@ -266,7 +271,7 @@ main {
     width: 150px;
     top: 10px;
     right: 10px;
-    filter:grayscale(10%);
+    filter: grayscale(10%);
 }
 
 #pawel-name {
