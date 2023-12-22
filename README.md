@@ -134,4 +134,88 @@ Page content has been partially provided by the clinic owner and partially autho
 The content provided by the clinic owner is based on an existing website addressed to local patients - https://www.implanty-bielsko.pl
 
 ### Media
+#### Images
+The photos of the clinic and photos featuring Dr Pawel Zimny were provided by him personally. These are the following photos:
+  - landing-page-clinic.webp
+  - infinita-perfectio-clinic-front.webp
+  - dr-zimny.webp (thumbnail)
+  - dr-pawel-zimny-vienna1.webp
+  - dr-pawel-zimny-vienna2.webp
+  - infinita-perfectio-hallway.webp
+  - infinita-perfectio-reception.webp
+  - infinita-perfectio-room1-hallway.webp
+  - infinita-perfectio-room1.webp
+  - infinita-perfectio-room2-hallway.webp
+  - infinita-perfectio-room2.webp
+  - infinita-perfectio-logo.webp
+
+  The images used on Treatments and Price List pages were taken from [Pixabay](https://pixabay.com) and [Pexels](https://www.pexels.com) respectively: 
+  - Pixabay :
+    - dental-hygiene-thumbnail.webp
+    - smiley-face-large.webp
+    - smiley-face-mobile.webp
+    - smiley-face-tablet.webp
+
+  - Pexels
+    - endodontics-thumbnail.webp 
+    - prosthodontics-thumbnail.webp
+    - dental-implants-thumbnail.webp
+    - dental-surgery-thumbnail.webp
+    - general-dentistry-thmbnail.webp
+    - privacy-policy-hero.webp
+  
+#### Google Map
+
+The clinic location iframe on the "Contact Us" page was taken from a publicly available Google Maps share link.
+
+#### Icons 
+
+Landing page, contact us and footer utilize embedded font taken from [Font Awesome](https://fontawesome.com/)
+
+### Form handling
+
+The online form located on Contact Us page is handled by [codeinstitute.net](https://formdump.codeinstitute.net)
+
+
+### HTML & CSS
+
+Most of the learning materials and clues were inspired by the following sites:
+ - [w3schools](https://www.w3schools.com/css/default.asp)
+ - Code Institute Learning Platform [LMS](https://learn.codeinstitute.net/)
+ - Mozilla Web Docs - Documentation for Web developers [developer.mozilla.org](https://developer.mozilla.org/)
+ - [css-tricks.com](https://css-tricks.com)
+ - How to make image responsive [www.freecodecamp.org](https://www.freecodecamp.org/news/css-responsive-image-tutorial/#:~:text=To%20make%20an%20image%20responsive,than%20absolute%20ones%20like%20pixels.)
+ - Resize images for responsive web design [www.wix.com](https://www.wix.com/studio/blog/resize-image-css)
+ - [caniuse.com](https://caniuse.com)
+ - [web.dev](https://web.dev/)
+ - Importance of using aria-label [www.aditus.io](https://www.aditus.io/aria/aria-label/#:~:text=a%20new%20tab\))
+
+### Accessibility
+  - Redundant link explanation [app.pope.tech](https://app.pope.tech/result-documentation/articles/redundant-link)
+ 
+ 
+### Typography
+
+- Web Typography [www.toptal.com](https://www.toptal.com/designers/typography/web-typography-infographic#:~:text=The%20font%20size%20on%20a,on%20a%20desktop%20computer%20screen.)
+
+### Fonts 
+
+  - Helps you choose best font [wordmark.it](https://wordmark.it)
+  - [Google Fonts](https://fonts.google.com)
+
+### Favicon
+ - Used to generate favicon [redketchup.io](https://redketchup.io/favicon-generator)
+
+### GDPR/RODO
+- What is RODO/The GDPR [dtmates.com](https://dtmates.com/wp-content/uploads/pdf/What-is-RODO.pdf)
+ - Used to generate policy privacy [nety.pl](https://nety.pl/generator-polityki-prywatnosci/)
+ - GDPR compliant contact form [Artefact.pl](https://www.artefakt.pl/blog/seo/formularz-kontaktowy-rodo)
+
+### UX Website Design Principles
+- [ironhack.com](https://www.ironhack.com/us/blog/ux-website-design-principles-for-beginners)
+
+
+
+
+
 
