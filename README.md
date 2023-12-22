@@ -107,13 +107,108 @@ Insert Screenshot here
 
 - HTML
 
+https://validator.w3.org/ -  is the web address for the W3C Markup Validation Service. The W3C Markup Validation Service is a tool provided by the World Wide Web Consortium (W3C) that allows web developers to check and validate the markup (HTML, XHTML, etc.) of web documents.
+
+I used the above scanner to scan the source code of all pages, i.e. Landing Page, About Us, Treatments, Pricelist, Clinic Gallery, Contact Us and Privacy Policy. The following errors were found: 
+
+- Landing Page
+
+![errors index screenshot 1](assets/images/documentation/Validation/errors-index1.png)
+![errors index screenshot 2](assets/images/documentation/Validation/errors-index2.png)
+![errors index screenshot 3](assets/images/documentation/Validation/errors-index3.png)
+![errors index screenshot 4](assets/images/documentation/Validation/errors-index4.png)
+
+
+ 1. First Iteration
+
+ | Error                                                                                                           | Line                                             | Fix     | Resolved |
+|-----------------------------------------------------------------------------------------------------------------|--------------------------------------------------|---------|----------|
+| Trailing slash on void elements has no effect and interacts badly with unquoted attribute values                | From line 106, column 25; to line 106, column 28 | Applied | Yes      |
+| End tag a violates nesting rules                                                                                | From line 106, column 25; to line 106, column 28 | Applied | Yes      |
+| Element div not allowed as child of element ol in this context. (Suppressing further errors from this subtree.) | From line 195, column 25; to line 195, column 42 | Applied | Yes      |
+| Stray end tag i.                                                                                                | From line 238, column 67; to line 238, column 70 | Applied | Yes      |
+
+2. Second iteration 
+
+| Error                                                                                                          | Line                                             | Fix     | Resolved |
+|----------------------------------------------------------------------------------------------------------------|--------------------------------------------------|---------|----------|
+| Element i not allowed as child of element ul in this context. (Suppressing further errors from this subtree.)  | From line 72, column 21; to line 72, column 49   | Applied | Yes      |
+| Element h2 not allowed as child of element ol in this context. (Suppressing further errors from this subtree.) | From line 202, column 29; to line 202, column 32 | Applied | Yes      |
+
+<ins>Evidence:</ins>
+
+![no errors - landing page](assets/images/documentation/Validation/no-errors-landing-page.png)
+
+- About Us Page 
+
+![errors - about us page](assets/images/documentation/Validation/errors-about-us.png)
+
+1. First Iteration
+
+| Error                                                                                                                   | Line                                             | Fix     | Resolved |
+|-------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|---------|----------|
+| Element figcaption not allowed as child of element div in this context. (Suppressing further errors from this subtree.) | From line 66, column 21; to line 66, column 32   | Applied | Yes      |
+| Stray end tag i.                                                                                                        | From line 122, column 67; to line 122, column 70 | Applied | Yes      |
+
+<ins>Evidence: </ins>
+
+![no errors - about us](assets/images/documentation/Validation/no-errors-about-us.png)
+
+- Pricelist Page
+
+![errors - pricelist](assets/images/documentation/Validation/errors-pricelist.png)
+
+1. First Iteration 
+
+| Error                                                      | Line                                             | Fix     | Resolved |
+|------------------------------------------------------------|--------------------------------------------------|---------|----------|
+| Attribute alt not allowed on element source at this point. | From line 66, column 21; to line 66, column 108  | Applied | Yes      |
+| Stray end tag i                                            | From line 303, column 67; to line 303, column 70 | Applied | Yes      |
+
+<ins>Evidence:</ins>
+
+![no errors - pricelist](assets/images/documentation/Validation/no-errors-pricelist.png)
+
+There was also a warning `Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed` - this is fixed too.
+
+- Gallery Page
+
+![Gallery Page - Errors](assets/images/documentation/Validation/errors-gallery.png)
+
+1. First Iteration
+
+| Error                                                                                                                                                                         | Line                                           | Fix     | Resolved |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|---------|----------|
+| Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed. | From line 62, column 9; to line 62, column 30  | Applied | Yes      |
+| Stray end tag i                                                                                                                                                               | From line 88, column 67; to line 88, column 70 | Applied | Yes      |
+
+<ins>Evidence:</ins>
+
+![No errors - Gallery](assets/images/documentation/Validation/no-errors-gallery.png)
+
+- Privacy Policy Page
+
+![Errors - Privacy Policy](assets/images/documentation/Validation/errors-privacy-policy.png)
+
+1. First Iteration
+
+| Error                                                                                                          | Line                                             | Fix     | Resolved |
+|----------------------------------------------------------------------------------------------------------------|--------------------------------------------------|---------|----------|
+| No p element in scope but a p end tag seen.                                                                    | From line 363, column 17; to line 363, column 20 | Applied | Yes      |
+| Element ul not allowed as child of element ul in this context. (Suppressing further errors from this subtree.) | From line 615, column 25; to line 615, column 28 | Applied | Yes      |
+| Stray end tag i                                                                                                | From line 828, column 67; to line 828, column 70 | Applied | Yes      |
+
+<ins>Evidence:</ins>
+
+![No errors - Privacy Policy](assets/images/documentation/Validation/no-errors-privacy-policy.png)
+
 
 - CSS
 
-For validation purpose W3C CSS Validator were used. 
+For validation purpose [W3C CSS Validator](https://validator.w3.org) were used. 
 The W3C CSS Validator is a tool provided by the World Wide Web Consortium (W3C) to check and validate Cascading Style Sheets (CSS). The W3C CSS Validator helps web developers ensure that their CSS code follows the official specifications and standards set by the W3C. 
 
-I have used the validator to scan style.css file located in assets/css/style.css file structure and the following issues been found:
+I used the above validator to scan the style.css file located in the assets/css/style.css file tree and the following issues were detected:
 
 ![Validation Errors - CSS](assets/images/documentation/Validation/error-css.png)
 
@@ -237,9 +332,3 @@ Most of the learning materials and clues were inspired by the following sites:
 
 ### UX Website Design Principles
 - [ironhack.com](https://www.ironhack.com/us/blog/ux-website-design-principles-for-beginners)
-
-
-
-
-
-
