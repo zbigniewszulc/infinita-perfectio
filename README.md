@@ -2,9 +2,32 @@
 
 The Infinita Perfectio website was designed for a Polish dental clinic with an aim of advertising the clinic and attracting international customers. While browsing the website, a potential customer will learn about the history of the clinic and what dental treatments are offered at the clinic. In a very clear way, the website presents the advantages of obtaining dental treatments in Poland and the prices of specific treatments. The customer also has the opportunity of sending an inquiry via the Contact Us form available on the website.
 
-Link to hosted project [Infinita Perfectio](https://zbigniewszulc.github.io/infinita-perfectio/)
+Link to the hosted project [Infinita Perfectio](https://zbigniewszulc.github.io/infinita-perfectio/)
 
 ![Infinita Perfectio Website Screenshot](assets/images/documentation/screenshot-infinita-perfectio.png)
+
+
+- [Infinita Perfectio Overview](#infinita-perfectio-overview)
+  - [Features](#features)
+  - [Testing](#testing)
+    - [Goals/Features](#goalsfeatures)
+    - [Validation Testing](#validation-testing)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
+    - [Content](#content)
+    - [Media](#media)
+      - [Images](#images)
+      - [Google Map](#google-map)
+      - [Icons](#icons)
+    - [Form handling](#form-handling)
+    - [HTML \& CSS](#html--css)
+    - [Accessibility](#accessibility)
+    - [Typography](#typography)
+    - [Translation](#translation)
+    - [Fonts](#fonts)
+    - [Favicon](#favicon)
+    - [GDPR/RODO](#gdprrodo)
+    - [UX Website Design Principles](#ux-website-design-principles)
 
 
 ## Features
@@ -112,7 +135,7 @@ Insert Screenshot here
    ![navbar unactive](assets/images/documentation/navbar-unactive-mobile.png)
 
   On tablets the behavior is the same as on mobile devices. This is expected.
-  Thisfunctionality was tested using Google Chrome DevTools with different resolution options. Additionaly tested on private devices: /tablets/mobiles/laptops/PC's.
+  This functionality was tested using Google Chrome DevTools with different resolution options. Additionaly tested on private devices: /tablets/mobiles/laptops/PC's.
 
 | Was the test performed successfully? | Yes |
 |--------------------------------------|-----|
@@ -290,6 +313,35 @@ I used the above validator to scan the style.css file located in the assets/css/
 The second verification scan passed:
 
 ![CSS - No errors](assets/images/documentation/Validation/css-no-errors.png)
+
+- Lightouse testing
+
+    - Landing page
+    ![Lighhouse - landing page](assets/images/documentation/Validation/lighthouse-landing-page.png)
+    - About Us
+    ![Lighhouse - about us](assets/images/documentation/Validation/lighhouse-about-us.png)
+    - Treatments
+    ![Lighthouse-treatments](assets/images/documentation/Validation/lighthouse-treatments.png)
+    - Pricelist
+    ![Lighthouse - pricelist](assets/images/documentation/Validation/lighthouse-pricelist.png)
+    - Clinic Gallery
+    ![Lighthouse - Clinic Gallery](assets/images/documentation/Validation/lighthouse-gallery.png)
+    - Contact Us
+    ![Lighthouse-contact-us](assets/images/documentation/Validation/lighthouse-contact-us.png)
+    - Privacy Policy 
+    ![Lighthouse - privacy policy](assets/images/documentation/Validation/Lighthouse-privacy-policy.png)
+
+- Accessibility Evaluation
+
+    Aaccessibility testing was performed using the Wave website - evaluation tool: 
+
+    1. First iteration result:
+
+    ![Wave - 1st iteration](assets/images/documentation/Validation/accessibility-landing.png)
+
+    2. Second iteraition results:
+
+    ![Wave - 2nd iteraition](assets/images/documentation/Validation/wave-landing-fixed.png)
 
 
 ## Deployment
