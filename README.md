@@ -22,7 +22,7 @@ The Infinita Perfectio website was designed for a Polish dental clinic with an a
 
   - The potential cost savings paragraph and benefits are included at the top of the page to grab users attention and encourage to continue browsing.
 
-![Top banner - screenshot](assets/images/documentation/Screenshot-banner.png)
+![Top banner - screenshot](assets/images/documentation/screenshot-banner.png)
 
   - The description of arranging and receiving dental treatment in Poland is outlined in a four simple steps at the bottom of the page.
 
@@ -67,9 +67,9 @@ Insert Screenshot here
   
 - __Contact Us__
 
-  - This page allows the user to easily contact the clinic through an interactive Contact Form. In order to submit the form, the user will be asked to provide their name and email address.
+  - This page allows the user to easily contact the clinic through an online Contact Form. In order to submit the form, the user will be asked to provide at least their name and email address.
 
-  - The email address, phone number and Google Maps embedded iframe is also included on the page.
+  - The clinic's email address, phone number, and embedded Google Maps iframe are also provided as an alternative contact option. This will allow the potential patient to select any preferred contact option and find out where the clinic is located.
 
  
 ![Contact Us Page - screenshot](assets/images/documentation/screenshot-contact-us.png)
@@ -113,7 +113,7 @@ Procedure for implementing the source code into GitHub Pages:
 1. Log in to GitHub at https://github.com.
 2. Navigate to the project repository. Usually, after logging in, it should be visible in the "Top Repositories" section without the need for further navigation. If not, repositories can always be viewed by clicking on avatar and selecting the "Your repositories" option"
 
-![Your repository location on menu](assets/images/documentation/github-menu.png)
+![Your repository location on menu](assets/images/documentation/github-repositories.png)
 
 3. After selecting the repository, find the settings button and go to the Pages tab
 
@@ -127,7 +127,7 @@ Procedure for implementing the source code into GitHub Pages:
 ![Deployment link](assets/images/documentation/github-deployment-link.png)
 
 ## Credits
+### Content
 
-## Content
 
-## Media
+### Media
