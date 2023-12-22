@@ -2,6 +2,8 @@
 
 The Infinita Perfectio website was designed for a Polish dental clinic with an aim of advertising the clinic and attracting international customers. While browsing the website, a potential customer will learn about the history of the clinic and what dental treatments are offered at the clinic. In a very clear way, the website presents the advantages of obtaining dental treatments in Poland and the prices of specific treatments. The customer also has the opportunity of sending an inquiry via the Contact Us form available on the website.
 
+Link to hosted project [Infinita Perfectio](https://zbigniewszulc.github.io/infinita-perfectio/)
+
 ![Infinita Perfectio Website Screenshot](assets/images/documentation/screenshot-infinita-perfectio.png)
 
 
@@ -19,6 +21,8 @@ The Infinita Perfectio website was designed for a Polish dental clinic with an a
 - __The landing page__
 
   - The landing page introduces the user to Infinita Perfectio clinic and outlines the benefits of obtaining dental treatments at the Polish based clinic.
+
+  ![Landing Page - screenshot](assets/images/documentation/screenshot-landing-page.png)
 
   - The potential cost savings paragraph and benefits are included at the top of the page to grab users attention and encourage to continue browsing.
 
@@ -92,7 +96,7 @@ Insert Screenshot here
   
 ## Testing
 
-###Goals/Features
+### Goals/Features
 
 1. Navigation bar
 2. Landing page, About Us, Treatments and Clinic Gallery
@@ -102,6 +106,8 @@ Insert Screenshot here
 ### Validation Testing 
 
 - HTML
+
+
 - CSS
 
 ## Deployment
@@ -134,6 +140,7 @@ Page content has been partially provided by the clinic owner and partially autho
 The content provided by the clinic owner is based on an existing website addressed to local patients - https://www.implanty-bielsko.pl
 
 ### Media
+
 #### Images
 The photos of the clinic and photos featuring Dr Pawel Zimny were provided by him personally. These are the following photos:
   - landing-page-clinic.webp
@@ -175,7 +182,6 @@ Landing page, contact us and footer utilize embedded font taken from [Font Aweso
 ### Form handling
 
 The online form located on Contact Us page is handled by [codeinstitute.net](https://formdump.codeinstitute.net)
-
 
 ### HTML & CSS
 
