@@ -99,9 +99,76 @@ Insert Screenshot here
 ### Goals/Features
 
 1. Navigation bar
-2. Landing page, About Us, Treatments and Clinic Gallery
+
+  - The navigation hamburger on the website has the function of hiding the navigation menu in one icon as three horizontal bars, which saves screen space  on tablets and mobile devices. When hamburger icon clicked, a full menu expands, allowing users to more easily access different sections of the page, i.e. About Us, Treatments, Pricelist, Clinic Gallery, Contact Us. When the hamburger menu is clicked again, it should toggle the menu to its previous state.
+
+  - Navbar toggles when clicking on hamburger menu 
+  ![Navbar active](assets/images/documentation/navbar-active-mobile.png)
+
+  - Navbar comes back to previous state when hamburger icon clicked again.
+
+   ![navbar unactive](assets/images/documentation/navbar-unactive-mobile.png)
+
+  On tablets the behavior is the same as on mobile devices. This is expected.
+  Thisfunctionality was tested using Google Chrome DevTools with different resolution options. Additionaly tested on private devices: /tablets/mobiles/laptops/PC's.
+
+| Was the test performed successfully? | Yes |
+|--------------------------------------|-----|
+
+
+2. Landing page
+
+Besides providing encouraging information to consider medical tourism, the website includes a banner that should be displayed in a vertical position for mobile devices and should be layout in a two-column layout when viewed on tablets. It is expected that the banner section of the page will appropriately adjust its layout for a vertical orientation. Let's test this!
+
+![Landing Page - Banner testing - mobile](assets/images/documentation/landing-page-baner-vertical.png)
+
+![Landing Page - Banner testing - tablet](assets/images/documentation/landing-page-banner-tablet.png)
+
+| Was the test performed successfully? | Yes |
+|--------------------------------------|-----|
+
+3. About Us, Treatments and Clinic Gallery
+  
+  - The main purpose of the above pages is to provide comprehensive information about the clinic, the range of treatments it offers and the general atmosphere of the facility.
+
+  - We perform tests on these pages to ensure that all images and descriptions load correctly. We will also simulate a situation in which the images cannot be loaded that alternative text (alt text) is displayed. Alt text mainly serves as an alternative for people who cannot see an image, whether due to browser settings, problems loading images, or other limitations.
+
+  ![Simulation of broken link - Gallery Page](assets/images/documentation/simulation-of-broken-link-gallery.png)
+
+| Was the test performed successfully? | Yes |
+|--------------------------------------|-----|
+
 3. Pricelist
+
+  - The purpose of this page is to transparently provide information about the prices offered by the clinic. For clarity, the information has been grouped to make the page more readable and understandable. The functionality that facilitates this solution is the use of details-summary tags to create a disclosure widget. Visually, it appears as a collapsible section. In this case, we are testing on various devices to ensure that this functionality works as expected. 
+  We anticipate that, upon clicking the arrow, the list of offered prices will expand. Once opened, the list should not close automatically. The goal is to allow users an easy preview of all options in the price list if they wish
+
+    ![Testing collapsible section vertical mobile](assets/images/documentation/pricelist-toggle-mobile.png)
+
+    ![Testing collapsible horizontal mobile](assets/images/documentation/pricelist-toggle-mobile-horzontal.png)
+
+    | Was the test performed successfully? | Yes |
+    |--------------------------------------|-----|
+
 4. Contact Us
+
+ - On this page, form validation will be tested. We need to ensure that:
+    - Required fields are filled out before the form can be submitted. If not, the user should receive information prompting them to complete the field
+
+    ![Form - testing required fields](assets/images/documentation/form-testing-required-fields.png)
+
+    - The email field contains a valid email address. If not, the user should be notified with an appropriate message.
+
+    ![Form - testng email field](assets/images/documentation/form-testing-email.png)
+
+    - The Privacy Policy link opens to allow the user to familiarize themselves with their rights.
+
+    ![Testing privacy policy link](assets/images/documentation/privacy-policy.png)
+
+    - After clicking the Submit button, the form should be handled by https://formdump.codeinstitute.net.
+
+    ![testing form handling](assets/images/documentation/form-handling.png)
+
 
 ### Validation Testing 
 
