@@ -96,6 +96,8 @@ Insert Screenshot here
   
 ## Testing
 
+ Throughout the development process, I encountered various bugs and performance-related issues, prompting me to conduct a substantial number of tests. In the sections below, I examined different features with the aim of achieving specific goals. For instance, I verified whether the submit button successfully submits the form and if clicking on a link opens it, among other tests.
+
 ### Goals/Features
 
 1. Navigation bar
@@ -384,6 +386,10 @@ Most of the learning materials and clues were inspired by the following sites:
 
 - Web Typography [www.toptal.com](https://www.toptal.com/designers/typography/web-typography-infographic#:~:text=The%20font%20size%20on%20a,on%20a%20desktop%20computer%20screen.)
 
+### Translation
+
+- In order to translate some complicated medical terms, Google Translator or Chat GPT was used alternately.
+
 ### Fonts 
 
   - Helps you choose best font [wordmark.it](https://wordmark.it)
@@ -399,3 +405,4 @@ Most of the learning materials and clues were inspired by the following sites:
 
 ### UX Website Design Principles
 - [ironhack.com](https://www.ironhack.com/us/blog/ux-website-design-principles-for-beginners)
+
