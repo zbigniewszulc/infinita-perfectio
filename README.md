@@ -110,6 +110,24 @@ Insert Screenshot here
 
 - CSS
 
+For validation purpose W3C CSS Validator were used. 
+The W3C CSS Validator is a tool provided by the World Wide Web Consortium (W3C) to check and validate Cascading Style Sheets (CSS). The W3C CSS Validator helps web developers ensure that their CSS code follows the official specifications and standards set by the W3C. 
+
+I have used the validator to scan style.css file located in assets/css/style.css file structure and the following issues been found:
+
+![Validation Errors - CSS](assets/images/documentation/Validation/error-css.png)
+
+- 530 #google-maps-wrapper Value Error : max-height auto is not a max-height value : auto
+    - This has been fixed by changing `max-height: auto;` to `max-height: 100%;` 
+    ![CSS Fix Solution](assets/images/documentation/Validation/css-fix.png) 
+- 885 #email-call-map-wrapper Value Error : margin-bottom only 0 can be a unit. You must put a unit after your number : -200
+    - it was typo issue. Has been fixed by adding `px` unit to -200.
+
+The second verification scan passed:
+
+![CSS - No errors](assets/images/documentation/Validation/css-no-errors.png)
+
+
 ## Deployment
 
 To manage the source code history, Git, a version control system, has been utilized. GitHub, one of the most popular hosting services for Git repositories, was chosen. Creating an account is quick and straightforward. Additionally, GitHub provides a service called GitHub Pages, allowing the source code of a project to be linked. This enables the remote presentation of project results to end-users. This is an ideal solution for this project, as it is being carried out for a business operating internationally. Furthermore, changes to the source code are practically visible to end-users with minimal delays.
