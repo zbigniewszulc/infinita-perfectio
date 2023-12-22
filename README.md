@@ -129,5 +129,9 @@ Procedure for implementing the source code into GitHub Pages:
 ## Credits
 ### Content
 
+Page content has been partially provided by the clinic owner and partially authored by me. The owner supplied substantive content, while I focused on constructing the section highlighting the benefits of medical tourism. This approach was chosen for several reasons: a short project timeline, the owner's limited time to provide all materials, and my personal experience with medical tourism, including dental tourism. In such a case, it is easier for the owner to edit a previously prepared text. This not only allows for easy modification but also opens up the possibility of refining the project overview and tailoring it to specific needs.
+
+The content provided by the clinic owner is based on an existing website addressed to local patients - https://www.implanty-bielsko.pl
 
 ### Media
+
